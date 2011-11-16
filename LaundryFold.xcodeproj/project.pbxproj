@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E305DE2147465A4009BD3EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E305DE1147465A4009BD3EA /* UIKit.framework */; };
+		9E305DE4147465A4009BD3EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E305DE3147465A4009BD3EA /* Foundation.framework */; };
+		9E305DE6147465A4009BD3EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E305DE5147465A4009BD3EA /* CoreGraphics.framework */; };
+		9E305DEC147465A4009BD3EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E305DEA147465A4009BD3EA /* InfoPlist.strings */; };
+		9E305DEE147465A4009BD3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E305DED147465A4009BD3EA /* main.m */; };
+		9E305DF2147465A4009BD3EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E305DF1147465A4009BD3EA /* AppDelegate.m */; };
+		9E305DF5147465A4009BD3EA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E305DF3147465A4009BD3EA /* MainStoryboard_iPhone.storyboard */; };
+		9E305DF8147465A4009BD3EA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E305DF6147465A4009BD3EA /* MainStoryboard_iPad.storyboard */; };
+		9E305DFB147465A4009BD3EA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E305DFA147465A4009BD3EA /* MasterViewController.m */; };
+		9E305DFE147465A4009BD3EA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E305DFD147465A4009BD3EA /* DetailViewController.m */; };
+		9E305E06147465A4009BD3EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E305E05147465A4009BD3EA /* SenTestingKit.framework */; };
+		9E305E07147465A4009BD3EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E305DE1147465A4009BD3EA /* UIKit.framework */; };
+		9E305E08147465A4009BD3EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E305DE3147465A4009BD3EA /* Foundation.framework */; };
+		9E305E10147465A4009BD3EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E305E0E147465A4009BD3EA /* InfoPlist.strings */; };
+		9E305E13147465A4009BD3EA /* LaundryFoldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E305E12147465A4009BD3EA /* LaundryFoldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E305E09147465A4009BD3EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E305DD4147465A3009BD3EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E305DDC147465A3009BD3EA;
+			remoteInfo = LaundryFold;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E305DDD147465A4009BD3EA /* LaundryFold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryFold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E305DE1147465A4009BD3EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E305DE3147465A4009BD3EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E305DE5147465A4009BD3EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E305DE9147465A4009BD3EA /* LaundryFold-Info.plist */ = {isa = PBXFileReference; path = "LaundryFold-Info.plist"; sourceTree = "<group>"; };
+		9E305DEB147465A4009BD3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E305DED147465A4009BD3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E305DEF147465A4009BD3EA /* LaundryFold-Prefix.pch */ = {isa = PBXFileReference; path = "LaundryFold-Prefix.pch"; sourceTree = "<group>"; };
+		9E305DF0147465A4009BD3EA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E305DF1147465A4009BD3EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E305DF4147465A4009BD3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9E305DF7147465A4009BD3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9E305DF9147465A4009BD3EA /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		9E305DFA147465A4009BD3EA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		9E305DFC147465A4009BD3EA /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		9E305DFD147465A4009BD3EA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9E305E04147465A4009BD3EA /* LaundryFoldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaundryFoldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E305E05147465A4009BD3EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9E305E0D147465A4009BD3EA /* LaundryFoldTests-Info.plist */ = {isa = PBXFileReference; path = "LaundryFoldTests-Info.plist"; sourceTree = "<group>"; };
+		9E305E0F147465A4009BD3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E305E11147465A4009BD3EA /* LaundryFoldTests.h */ = {isa = PBXFileReference; path = LaundryFoldTests.h; sourceTree = "<group>"; };
+		9E305E12147465A4009BD3EA /* LaundryFoldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaundryFoldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E305DDA147465A3009BD3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E305DE2147465A4009BD3EA /* UIKit.framework in Frameworks */,
+				9E305DE4147465A4009BD3EA /* Foundation.framework in Frameworks */,
+				9E305DE6147465A4009BD3EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E305E00147465A4009BD3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E305E06147465A4009BD3EA /* SenTestingKit.framework in Frameworks */,
+				9E305E07147465A4009BD3EA /* UIKit.framework in Frameworks */,
+				9E305E08147465A4009BD3EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E305DD2147465A3009BD3EA = {
+			isa = PBXGroup;
+			children = (
+				9E305DE7147465A4009BD3EA /* LaundryFold */,
+				9E305E0B147465A4009BD3EA /* LaundryFoldTests */,
+				9E305DE0147465A4009BD3EA /* Frameworks */,
+				9E305DDE147465A4009BD3EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E305DDE147465A4009BD3EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E305DDD147465A4009BD3EA /* LaundryFold.app */,
+				9E305E04147465A4009BD3EA /* LaundryFoldTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E305DE0147465A4009BD3EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E305DE1147465A4009BD3EA /* UIKit.framework */,
+				9E305DE3147465A4009BD3EA /* Foundation.framework */,
+				9E305DE5147465A4009BD3EA /* CoreGraphics.framework */,
+				9E305E05147465A4009BD3EA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E305DE7147465A4009BD3EA /* LaundryFold */ = {
+			isa = PBXGroup;
+			children = (
+				9E305DF0147465A4009BD3EA /* AppDelegate.h */,
+				9E305DF1147465A4009BD3EA /* AppDelegate.m */,
+				9E305DF3147465A4009BD3EA /* MainStoryboard_iPhone.storyboard */,
+				9E305DF6147465A4009BD3EA /* MainStoryboard_iPad.storyboard */,
+				9E305DF9147465A4009BD3EA /* MasterViewController.h */,
+				9E305DFA147465A4009BD3EA /* MasterViewController.m */,
+				9E305DFC147465A4009BD3EA /* DetailViewController.h */,
+				9E305DFD147465A4009BD3EA /* DetailViewController.m */,
+				9E305DE8147465A4009BD3EA /* Supporting Files */,
+			);
+			path = LaundryFold;
+			sourceTree = "<group>";
+		};
+		9E305DE8147465A4009BD3EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E305DE9147465A4009BD3EA /* LaundryFold-Info.plist */,
+				9E305DEA147465A4009BD3EA /* InfoPlist.strings */,
+				9E305DED147465A4009BD3EA /* main.m */,
+				9E305DEF147465A4009BD3EA /* LaundryFold-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E305E0B147465A4009BD3EA /* LaundryFoldTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E305E11147465A4009BD3EA /* LaundryFoldTests.h */,
+				9E305E12147465A4009BD3EA /* LaundryFoldTests.m */,
+				9E305E0C147465A4009BD3EA /* Supporting Files */,
+			);
+			path = LaundryFoldTests;
+			sourceTree = "<group>";
+		};
+		9E305E0C147465A4009BD3EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E305E0D147465A4009BD3EA /* LaundryFoldTests-Info.plist */,
+				9E305E0E147465A4009BD3EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E305DDC147465A3009BD3EA /* LaundryFold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E305E16147465A4009BD3EA /* Build configuration list for PBXNativeTarget "LaundryFold" */;
+			buildPhases = (
+				9E305DD9147465A3009BD3EA /* Sources */,
+				9E305DDA147465A3009BD3EA /* Frameworks */,
+				9E305DDB147465A3009BD3EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaundryFold;
+			productName = LaundryFold;
+			productReference = 9E305DDD147465A4009BD3EA /* LaundryFold.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E305E03147465A4009BD3EA /* LaundryFoldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E305E19147465A4009BD3EA /* Build configuration list for PBXNativeTarget "LaundryFoldTests" */;
+			buildPhases = (
+				9E305DFF147465A4009BD3EA /* Sources */,
+				9E305E00147465A4009BD3EA /* Frameworks */,
+				9E305E01147465A4009BD3EA /* Resources */,
+				9E305E02147465A4009BD3EA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E305E0A147465A4009BD3EA /* PBXTargetDependency */,
+			);
+			name = LaundryFoldTests;
+			productName = LaundryFoldTests;
+			productReference = 9E305E04147465A4009BD3EA /* LaundryFoldTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E305DD4147465A3009BD3EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "U.C. Berkeley ";
+			};
+			buildConfigurationList = 9E305DD7147465A3009BD3EA /* Build configuration list for PBXProject "LaundryFold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E305DD2147465A3009BD3EA;
+			productRefGroup = 9E305DDE147465A4009BD3EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E305DDC147465A3009BD3EA /* LaundryFold */,
+				9E305E03147465A4009BD3EA /* LaundryFoldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E305DDB147465A3009BD3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E305DEC147465A4009BD3EA /* InfoPlist.strings in Resources */,
+				9E305DF5147465A4009BD3EA /* MainStoryboard_iPhone.storyboard in Resources */,
+				9E305DF8147465A4009BD3EA /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E305E01147465A4009BD3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E305E10147465A4009BD3EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E305E02147465A4009BD3EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E305DD9147465A3009BD3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E305DEE147465A4009BD3EA /* main.m in Sources */,
+				9E305DF2147465A4009BD3EA /* AppDelegate.m in Sources */,
+				9E305DFB147465A4009BD3EA /* MasterViewController.m in Sources */,
+				9E305DFE147465A4009BD3EA /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E305DFF147465A4009BD3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E305E13147465A4009BD3EA /* LaundryFoldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E305E0A147465A4009BD3EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E305DDC147465A3009BD3EA /* LaundryFold */;
+			targetProxy = 9E305E09147465A4009BD3EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E305DEA147465A4009BD3EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E305DEB147465A4009BD3EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E305DF3147465A4009BD3EA /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E305DF4147465A4009BD3EA /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9E305DF6147465A4009BD3EA /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E305DF7147465A4009BD3EA /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9E305E0E147465A4009BD3EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E305E0F147465A4009BD3EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E305E14147465A4009BD3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E305E15147465A4009BD3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E305E17147465A4009BD3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaundryFold/LaundryFold-Prefix.pch";
+				INFOPLIST_FILE = "LaundryFold/LaundryFold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E305E18147465A4009BD3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaundryFold/LaundryFold-Prefix.pch";
+				INFOPLIST_FILE = "LaundryFold/LaundryFold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9E305E1A147465A4009BD3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LaundryFold.app/LaundryFold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaundryFold/LaundryFold-Prefix.pch";
+				INFOPLIST_FILE = "LaundryFoldTests/LaundryFoldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9E305E1B147465A4009BD3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LaundryFold.app/LaundryFold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaundryFold/LaundryFold-Prefix.pch";
+				INFOPLIST_FILE = "LaundryFoldTests/LaundryFoldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E305DD7147465A3009BD3EA /* Build configuration list for PBXProject "LaundryFold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E305E14147465A4009BD3EA /* Debug */,
+				9E305E15147465A4009BD3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E305E16147465A4009BD3EA /* Build configuration list for PBXNativeTarget "LaundryFold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E305E17147465A4009BD3EA /* Debug */,
+				9E305E18147465A4009BD3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E305E19147465A4009BD3EA /* Build configuration list for PBXNativeTarget "LaundryFoldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E305E1A147465A4009BD3EA /* Debug */,
+				9E305E1B147465A4009BD3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E305DD4147465A3009BD3EA /* Project object */;
+}
