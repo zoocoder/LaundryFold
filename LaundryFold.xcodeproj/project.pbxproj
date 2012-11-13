@@ -39,23 +39,23 @@
 		9E305DE1147465A4009BD3EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E305DE3147465A4009BD3EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E305DE5147465A4009BD3EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9E305DE9147465A4009BD3EA /* LaundryFold-Info.plist */ = {isa = PBXFileReference; path = "LaundryFold-Info.plist"; sourceTree = "<group>"; };
+		9E305DE9147465A4009BD3EA /* LaundryFold-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaundryFold-Info.plist"; sourceTree = "<group>"; };
 		9E305DEB147465A4009BD3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E305DED147465A4009BD3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E305DEF147465A4009BD3EA /* LaundryFold-Prefix.pch */ = {isa = PBXFileReference; path = "LaundryFold-Prefix.pch"; sourceTree = "<group>"; };
-		9E305DF0147465A4009BD3EA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E305DEF147465A4009BD3EA /* LaundryFold-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaundryFold-Prefix.pch"; sourceTree = "<group>"; };
+		9E305DF0147465A4009BD3EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E305DF1147465A4009BD3EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9E305DF4147465A4009BD3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		9E305DF7147465A4009BD3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		9E305DF9147465A4009BD3EA /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		9E305DF9147465A4009BD3EA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		9E305DFA147465A4009BD3EA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		9E305DFC147465A4009BD3EA /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		9E305DFC147465A4009BD3EA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		9E305DFD147465A4009BD3EA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		9E305E04147465A4009BD3EA /* LaundryFoldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaundryFoldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E305E05147465A4009BD3EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9E305E0D147465A4009BD3EA /* LaundryFoldTests-Info.plist */ = {isa = PBXFileReference; path = "LaundryFoldTests-Info.plist"; sourceTree = "<group>"; };
+		9E305E0D147465A4009BD3EA /* LaundryFoldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaundryFoldTests-Info.plist"; sourceTree = "<group>"; };
 		9E305E0F147465A4009BD3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9E305E11147465A4009BD3EA /* LaundryFoldTests.h */ = {isa = PBXFileReference; path = LaundryFoldTests.h; sourceTree = "<group>"; };
+		9E305E11147465A4009BD3EA /* LaundryFoldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaundryFoldTests.h; sourceTree = "<group>"; };
 		9E305E12147465A4009BD3EA /* LaundryFoldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaundryFoldTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
